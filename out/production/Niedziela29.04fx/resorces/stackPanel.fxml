@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Label?>
+<FlowPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="PaneControler" >
+    <children>
+        <Label text="Login"/>
+        <TextField fx:id="loginTextField"/>
+        <Label text="Hasło"/>
+        <PasswordField fx:id="passwordField"/>
+        <Button fx:id="loginButton" text="Zaloguj" onAction="#login"></Button>
+        <Button fx:id="b1" text="Gabrys ma " onAction="#akcja"/>
+
+
+    </children>
+</FlowPane>
